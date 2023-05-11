@@ -63,10 +63,10 @@ def calcul(expression):
     """
     index = 0
     for index_caractere in range(len(expression)-1):
-        if expression[index_caractere] in ["*", "/"]:
+        if expression[index_caractere] in ['+', '-'] :
             index = index_caractere
             break
-        if expression[index_caractere] in ['+', '-'] :
+        if expression[index_caractere] in ["*", "/"]:
             index = index_caractere
     if index == 0:
         return expression
@@ -78,7 +78,7 @@ def calcul(expression):
         return float(calcul(expression[:index])) * float(calcul(expression[index+1:]))
     elif expression[index] == "/":
         if expression[index+1:] == 0:
-            raise ZeroDivisionError("noob ! :p ")
+            raise ZeroDivisionError("Pas de division par 0")
         return float(calcul(expression[:index])) / float(calcul(expression[index+1:]))
     return expression
 

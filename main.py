@@ -1,8 +1,5 @@
 """
-Author/GOAT: Billmack; Spaceiii3; Arma
-objectif:                                                           
-
-
+Authors: Evan; Timothée; Cornetin; Jacques.
 """
 from calcul import is_valid, calculate_expression
 
