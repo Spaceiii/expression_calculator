@@ -1,6 +1,8 @@
 # Projet 1 : calculateur d'expressions simples
 
-- [!] lien projet : [Github](https://github.com/Spaceiii/expression_calculator/)
+- lien projet : [Github](https://github.com/Spaceiii/expression_calculator/)
+
+---
 
 ## Vérification
 
