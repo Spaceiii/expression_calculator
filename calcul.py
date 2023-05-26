@@ -81,6 +81,3 @@ def calcul(expression):
             raise ZeroDivisionError("Pas de division par 0")
         return float(calcul(expression[:index])) / float(calcul(expression[index+1:]))
     return expression
-
-
-
