@@ -28,4 +28,4 @@ Cette dernière prend une chaine de caractère contenant une expression non-pare
 
 Le programme ne vérifie pas totalement le contenu passé par l'utilisateur. Si ce dernier tape "bonjour", le programme ne sachant traiter cette expression va retourner une erreur.
 
-De même, le programme est limité au expression suivante : (, ), *, /, +, -. Le programme ne prend pas en compte les expressions implicite comme $`2(3+1)`$
+De même, le programme est limité aux expressionx suivantes : "(", ")", "*", "/", "+", "-". Le programme ne prend pas en compte les expressions implicite comme $`2(3+1)`$
